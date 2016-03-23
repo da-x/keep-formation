@@ -47,7 +47,7 @@
       (progn
 	(add-hook 'post-self-insert-hook 'keep-formation-post-self-insert-hook t))
       (progn
-	(remove-hook 'post-self-insert-hook 'keep-formation-post-self-insert-hook t))
+	(remove-hook 'post-self-insert-hook 'keep-formation-post-self-insert-hook))
       ))
 
 (defun keep-formation-delete-forward-char ()
